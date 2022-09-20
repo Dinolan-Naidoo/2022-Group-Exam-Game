@@ -1,0 +1,1608 @@
+fileFormatVersion: 2
+guid: 475c645f6c118c1479524c8e12d748b4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 30x30tilesets_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 358
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2670193e05ec1dd47a65395959e636fa
+      internalID: 283174484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 357
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b144c053580f47648862f84e07fd787e
+      internalID: -1955664606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 358
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21cd75136d2a484c8476d1cedded69a
+      internalID: 440651912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 358
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d655dd606a9f57c419e814661480148f
+      internalID: -502348021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 357
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59035b660e7844542832e4d85acf0d5a
+      internalID: 1211478806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 358
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24eed519fe9a8b48bc50d639cccda3f
+      internalID: 389407574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_6
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 358
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b370c55eee9bd2646864551ca1458fc3
+      internalID: -1719862779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 358
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7aaa64657580a7468b349418b3b17d3
+      internalID: 1063279551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_8
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 358
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e03deaaf17afd4d91ebf3927de8cb0
+      internalID: -1327227815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_9
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 358
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb837358a130f024fab6e49131b6bd82
+      internalID: 852789844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_10
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 358
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c129bee6184034b9592ab44f20b909
+      internalID: 831106015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 328
+        width: 59
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 22}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43078e2622d2ae0459ee8c1390a96b2c
+      internalID: 1071583510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_12
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 292
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3879f8e18a93f3947b0e9d6f8a557eb9
+      internalID: -651303348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 294
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c43f45b589c1f45b10687489e61188
+      internalID: -2023116947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_14
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 293
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896f60969d884194dbc57c975d634f1f
+      internalID: -13556923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_15
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 293
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a210d503e24034c9a71558dd199658
+      internalID: -1762555238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_16
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 298
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a889eec7279e7e64797aa43cdd646e83
+      internalID: -2009695834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_17
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 298
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d7f9f2ab900224086464548e2389da
+      internalID: -887916755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_18
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 298
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc1a89fee523604dbf811f3648da6e9
+      internalID: -1999439764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_19
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 298
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518cffe30d5928445a7c1a87a2bb1470
+      internalID: 1896613986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_20
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 298
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729e2689a203d51428b36b21e8630a0d
+      internalID: -15156323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_21
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 298
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e0dd9ff5687ef4792b0746cd79e7ad
+      internalID: 1413241729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_22
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 229
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7679da46ae25e1b49b83120fcd9253f8
+      internalID: -760395512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_23
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 226
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd5e35dd1ba4534384bb5877c5e25ec
+      internalID: -1434899171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_24
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 229
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622bdcbbce0381a4c869df5e1d484077
+      internalID: 943825231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_25
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 225
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d5fd6a6c59dba4cbda727a8cf589b4
+      internalID: 431573930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_26
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 229
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04961d0af5ea5004c9d15dd9907328ab
+      internalID: 961946570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_27
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 226
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dd635c1b2a8cc48bb9663ad30fe916
+      internalID: -1628722892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 228
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0a8001133e657409645b5ab3d92118
+      internalID: 1112021695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_29
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 238
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9c61be0fc39ce438e5c1b9419faac0
+      internalID: -142701210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_30
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 238
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ae83f1d747a754eaa3807ba5d6180c
+      internalID: -1130739307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_31
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 238
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5455fb810fd7a49b2e27dd5425fdb2
+      internalID: 830454366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_32
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 238
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513d714ad1716ab418e3bf8a0ecf2b78
+      internalID: -96038247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_33
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 162
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9d0f282300e064396562499fa8ac6a
+      internalID: 606030100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 162
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1f26997c1134f4b984e6931a8d7daf
+      internalID: -1116807634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_35
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 165
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564de5e18f2d7e345baf44e85538143e
+      internalID: 857875877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_36
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 163
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776659f2608614a4a86bb479b6fa8473
+      internalID: 2064714540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_37
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 164
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77af469417f2e4740bca367a69352088
+      internalID: 550590604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_38
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 158
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cefa3f9214b28a47907d5bd92d4435d
+      internalID: 1801822490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_39
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 156
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab842b13122fb194f9a200f1c47d5254
+      internalID: -687447740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_40
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 178
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9526bbbab5fe41240b7ddb869fbb2847
+      internalID: -1531635193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_41
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 178
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84db086ad8435645817ac276334d162
+      internalID: 1523682233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_42
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 178
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f283656fa473c574aa80136fb542d680
+      internalID: 396700008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_43
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 178
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dadcc9140e0094594d5b1c5935923c
+      internalID: -1118060756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_44
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 101
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 10, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a4383a78f8b464995360995451ef26
+      internalID: 1598875345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_45
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 97
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.62647754, y: 0.09948845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a2728b8202297429cebe2e01fcab3c
+      internalID: -966758327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_46
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 100
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24707b01f44f6f42940b09d66bc2497
+      internalID: -916039004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_47
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 94
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853f5198e190a234086797a5f5cda8b4
+      internalID: 643977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_48
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 102
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3f9bae7e588ec43a6b73c65f161a03
+      internalID: -266727520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_49
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 90
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274fece903570914ca5e4f85697a7787
+      internalID: -299427824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_50
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 103
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d421c530968cda4e83234309bd0b794
+      internalID: 199805435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_51
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 118
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515fb2bbc17dc3c4c8ae5dcbc3eab064
+      internalID: -166068899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_52
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 118
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc454394ef6e7f24399ba46c95eff063
+      internalID: 1653049627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_53
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 118
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5face66cc3fe9e14f9a917f8d60c4819
+      internalID: 1267322771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_54
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 118
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffe4367cff834741b5985c2e05d51f7
+      internalID: 877338947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_55
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 58
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f4e889db9ad4f409aeace8761cd24d
+      internalID: 899085170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_56
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 58
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239869ab07bc5184dbdc41075386bd8c
+      internalID: 1334157430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_57
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 58
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42efc83138213cf4697b0b6617179d86
+      internalID: -369797464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_58
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 58
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c6771417deedf43bd74d4bba5cbcc6
+      internalID: -1463926718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_59
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 58
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52f8e33b254db34a9d9bbfc86b38771
+      internalID: 772255013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_60
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 58
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2e864dfcca7484cb4d67fee57fe9f4
+      internalID: 265873618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_61
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 58
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02cf7ff5e22793488d6e363ef81a963
+      internalID: -1772194148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_62
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 58
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1272366ff146d134196c53ea7c8768d1
+      internalID: -1749735912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_63
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 58
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42357a9ad1a309c48a4d65219d339cb4
+      internalID: 1939225632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_64
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 58
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58cda9f7331eda4ebd5f02ebe109174
+      internalID: 314862665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_65
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 58
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06c4fb2ce7f6a844ad437f64256626d
+      internalID: -16189213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 30x30tilesets_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47fbabeef5fa0440b52c7b366281fb8
+      internalID: -154792476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      30x30tilesets_1: -1955664606
+      30x30tilesets_65: -16189213
+      30x30tilesets_53: 1267322771
+      30x30tilesets_9: 852789844
+      30x30tilesets_12: -651303348
+      30x30tilesets_0: 283174484
+      30x30tilesets_15: -1762555238
+      30x30tilesets_43: -1118060756
+      30x30tilesets_2: 440651912
+      30x30tilesets_55: 899085170
+      30x30tilesets_39: -687447740
+      30x30tilesets_23: -1434899171
+      30x30tilesets_34: -1116807634
+      30x30tilesets_30: -1130739307
+      30x30tilesets_66: -154792476
+      30x30tilesets_35: 857875877
+      30x30tilesets_32: -96038247
+      30x30tilesets_4: 1211478806
+      30x30tilesets_3: -502348021
+      30x30tilesets_29: -142701210
+      30x30tilesets_60: 265873618
+      30x30tilesets_40: -1531635193
+      30x30tilesets_44: 1598875345
+      30x30tilesets_47: 643977
+      30x30tilesets_46: -916039004
+      30x30tilesets_42: 396700008
+      30x30tilesets_31: 830454366
+      30x30tilesets_49: -299427824
+      30x30tilesets_59: 772255013
+      30x30tilesets_50: 199805435
+      30x30tilesets_16: -2009695834
+      30x30tilesets_25: 431573930
+      30x30tilesets_24: 943825231
+      30x30tilesets_28: 1112021695
+      30x30tilesets_36: 2064714540
+      30x30tilesets_41: 1523682233
+      30x30tilesets_13: -2023116947
+      30x30tilesets_38: 1801822490
+      30x30tilesets_62: -1749735912
+      30x30tilesets_8: -1327227815
+      30x30tilesets_14: -13556923
+      30x30tilesets_20: -15156323
+      30x30tilesets_48: -266727520
+      30x30tilesets_51: -166068899
+      30x30tilesets_64: 314862665
+      30x30tilesets_45: -966758327
+      30x30tilesets_22: -760395512
+      30x30tilesets_37: 550590604
+      30x30tilesets_52: 1653049627
+      30x30tilesets_6: -1719862779
+      30x30tilesets_17: -887916755
+      30x30tilesets_33: 606030100
+      30x30tilesets_11: 1071583510
+      30x30tilesets_7: 1063279551
+      30x30tilesets_21: 1413241729
+      30x30tilesets_57: -369797464
+      30x30tilesets_56: 1334157430
+      30x30tilesets_63: 1939225632
+      30x30tilesets_19: 1896613986
+      30x30tilesets_27: -1628722892
+      30x30tilesets_26: 961946570
+      30x30tilesets_54: 877338947
+      30x30tilesets_61: -1772194148
+      30x30tilesets_5: 389407574
+      30x30tilesets_58: -1463926718
+      30x30tilesets_10: 831106015
+      30x30tilesets_18: -1999439764
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
