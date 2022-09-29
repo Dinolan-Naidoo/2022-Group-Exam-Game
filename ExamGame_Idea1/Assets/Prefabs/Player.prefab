@@ -104,11 +104,11 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.06
-  m_GravityScale: 1
+  m_GravityScale: 1.3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &5389710689964167256
 MonoBehaviour:
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   strength: 3
-  jumpSpeed: 6
+  jumpSpeed: 5
   groundCheck: {fileID: 5389710690889650274}
   groundCheckRadius: 0.1
   groundLayer:
@@ -157,13 +157,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b435401b22980dc4bb40a9a78d7b60d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 10
   feetPosition: {fileID: 5389710690889650274}
-  checkRadius: 0
+  checkRadius: 1.49
   groundCheck:
     serializedVersion: 2
-    m_Bits: 0
-  jumpForce: 0
+    m_Bits: 64
+  jumpForce: 12
 --- !u!1 &5389710690889650285
 GameObject:
   m_ObjectHideFlags: 0
