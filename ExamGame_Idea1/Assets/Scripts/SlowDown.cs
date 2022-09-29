@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpeedUp : MonoBehaviour
+public class SlowDown : MonoBehaviour
 {
-
-    private float timer = 5f;
     [SerializeField]
-    private float speedUpTime = 1f;
-   
+    private float slowDownTime = 1f;
+    
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -22,13 +21,11 @@ public class SpeedUp : MonoBehaviour
     IEnumerator Speed(Collision2D player)
     {
 
-        Player_Controller speed_ =player.gameObject.GetComponent<Player_Controller>();
-        speed_.speed += 15f;
+        Player_Controller speed_ = player.gameObject.GetComponent<Player_Controller>();
+        speed_.speed -= 10f;
 
-        yield return new WaitForSeconds(speedUpTime);
+        yield return new WaitForSeconds(slowDownTime);
 
-        speed_.speed -= 15f;
+        speed_.speed += 10f;
     }
-
-
 }
