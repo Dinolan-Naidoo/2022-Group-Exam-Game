@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpeedUp : MonoBehaviour
 {
 
-    private float timer = 5f;
+    //private float timer = 5f;
     [SerializeField]
     private float speedUpTime = 1f;
    
@@ -23,11 +23,11 @@ public class SpeedUp : MonoBehaviour
     {
 
         Player_Controller speed_ =player.gameObject.GetComponent<Player_Controller>();
-        speed_.speed += 15f;
+        speed_.speed += 10f;
 
         yield return new WaitForSeconds(speedUpTime);
 
-        speed_.speed -= 15f;
+        speed_.speed -= 10f;
     }
 
 
