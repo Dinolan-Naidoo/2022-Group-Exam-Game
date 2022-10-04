@@ -30,7 +30,7 @@ public class Player_Move : MonoBehaviour
         // rb.AddForce(new Vector3(1, 0, 0)); // just an example.
 
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        if(Input.GetKey(KeyCode.W)&& isTouchingGround)
+        if(Input.GetKey(KeyCode.Q)&& isTouchingGround)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
         }

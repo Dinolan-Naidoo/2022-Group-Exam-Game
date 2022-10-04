@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Controller : MonoBehaviour
+public class Player2Move : MonoBehaviour
 {
     private Rigidbody2D Rb;
     public float speed;
@@ -27,7 +27,7 @@ public class Player_Controller : MonoBehaviour
     {
         //Gives Ellen a horizontal velocity
         moveInput = Input.GetAxisRaw("Horizontal");
-        Rb.velocity = new Vector2( speed, Rb.velocity.y);
+        Rb.velocity = new Vector2(speed, Rb.velocity.y);
     }
 
     private void Update()
@@ -35,13 +35,13 @@ public class Player_Controller : MonoBehaviour
         //Checks whether Ellen is on the grounf before allowing her to jump
         onGround = Physics2D.OverlapCircle(feetPosition.position, checkRadius, groundCheck);
 
-        if (onGround == true && Input.GetKeyDown(KeyCode.Q))
+        if (onGround == true && Input.GetKeyDown(KeyCode.P))
         {
-           // anim.Play("Ellen_Jump");
+            // anim.Play("Ellen_Jump");
             Rb.velocity = Vector2.up * jumpForce;
-           // anim.SetBool("isJumping", true);
+            // anim.SetBool("isJumping", true);
         }
-      
+
 
         //Checks whether the move input is positive and sets her posision to moving right
         if (moveInput > 0)
@@ -61,11 +61,11 @@ public class Player_Controller : MonoBehaviour
         if (onGround == true)
         {
             // anim.Play("Ellen_Jump");
-            Rb.velocity = Vector2.up * jumpForce ;
+            Rb.velocity = Vector2.up * jumpForce;
             // anim.SetBool("isJumping", true);
         }
     }
 
     //Transforms Ellen's position on the moving platforms
-    
+
 }
