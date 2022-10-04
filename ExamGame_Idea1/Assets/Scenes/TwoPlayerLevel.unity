@@ -1311,6 +1311,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5048956501979737302, guid: c401fbab186971e4bbc8c85adcac58ff, type: 3}
+      propertyPath: sceneId
+      value: 488067918
+      objectReference: {fileID: 0}
     - target: {fileID: 5389710689964167256, guid: c401fbab186971e4bbc8c85adcac58ff, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2490,6 +2494,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5048956501979737302, guid: c401fbab186971e4bbc8c85adcac58ff, type: 3}
+      propertyPath: sceneId
+      value: 80764096
+      objectReference: {fileID: 0}
     - target: {fileID: 5389710689964167258, guid: c401fbab186971e4bbc8c85adcac58ff, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2549,6 +2557,10 @@ PrefabInstance:
     - target: {fileID: 5389710689964167271, guid: c401fbab186971e4bbc8c85adcac58ff, type: 3}
       propertyPath: m_Name
       value: Player 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389710689964167271, guid: c401fbab186971e4bbc8c85adcac58ff, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5850397244187161351, guid: c401fbab186971e4bbc8c85adcac58ff, type: 3}
       propertyPath: m_Enabled

@@ -23,7 +23,7 @@ namespace Mirror
 
         void OnGUI()
         {
-            GUILayout.BeginArea(new Rect(10 + offsetX, 40 + offsetY, 215, 9999));
+            GUILayout.BeginArea(new Rect(10 + offsetX, 40 + offsetY, 400, 9999));
             if (!NetworkClient.isConnected && !NetworkServer.active)
             {
                 StartButtons();
@@ -51,14 +51,18 @@ namespace Mirror
             GUILayout.EndArea();
         }
 
+
         void StartButtons()
         {
+            GUIStyle customButton = new GUIStyle("button");
+            customButton.fontSize = 25;
+            customButton.normal.textColor = Color.cyan;
             if (!NetworkClient.active)
             {
                 // Server + Client
                 if (Application.platform != RuntimePlatform.WebGLPlayer)
                 {
-                    if (GUILayout.Button("Host (Server + Client)"))
+                    if (GUILayout.Button("Host (Server + Client)", customButton, GUILayout.MinHeight(60)))
                     {
                         manager.StartHost();
                     }
@@ -66,12 +70,12 @@ namespace Mirror
 
                 // Client + IP
                 GUILayout.BeginHorizontal();
-                if (GUILayout.Button("Client"))
+                if (GUILayout.Button("Client", customButton, GUILayout.MinHeight(60)))
                 {
                     manager.StartClient();
                 }
                 // This updates networkAddress every frame from the TextField
-                manager.networkAddress = GUILayout.TextField(manager.networkAddress);
+                manager.networkAddress = GUILayout.TextField(manager.networkAddress, customButton, GUILayout.MinHeight(60));
                 GUILayout.EndHorizontal();
 
                 // Server Only
@@ -82,14 +86,14 @@ namespace Mirror
                 }
                 else
                 {
-                    if (GUILayout.Button("Server Only")) manager.StartServer();
+                    if (GUILayout.Button("Server Only", customButton, GUILayout.MinHeight(60))) manager.StartServer();
                 }
             }
             else
             {
                 // Connecting
                 GUILayout.Label($"Connecting to {manager.networkAddress}..");
-                if (GUILayout.Button("Cancel Connection Attempt"))
+                if (GUILayout.Button("Cancel Connection Attempt", customButton, GUILayout.MinHeight(60)))
                 {
                     manager.StopClient();
                 }
@@ -120,10 +124,13 @@ namespace Mirror
 
         void StopButtons()
         {
+            GUIStyle customButton = new GUIStyle("button");
+            customButton.fontSize = 25;
+            customButton.normal.textColor = Color.cyan;
             // stop host if host mode
             if (NetworkServer.active && NetworkClient.isConnected)
             {
-                if (GUILayout.Button("Stop Host"))
+                if (GUILayout.Button("Stop Host", customButton, GUILayout.MinHeight(60)))
                 {
                     manager.StopHost();
                 }
@@ -131,7 +138,7 @@ namespace Mirror
             // stop client if client-only
             else if (NetworkClient.isConnected)
             {
-                if (GUILayout.Button("Stop Client"))
+                if (GUILayout.Button("Stop Client", customButton, GUILayout.MinHeight(60)))
                 {
                     manager.StopClient();
                 }
@@ -139,7 +146,7 @@ namespace Mirror
             // stop server if server-only
             else if (NetworkServer.active)
             {
-                if (GUILayout.Button("Stop Server"))
+                if (GUILayout.Button("Stop Server", customButton, GUILayout.MinHeight(60)))
                 {
                     manager.StopServer();
                 }
@@ -147,3 +154,4 @@ namespace Mirror
         }
     }
 }
+
