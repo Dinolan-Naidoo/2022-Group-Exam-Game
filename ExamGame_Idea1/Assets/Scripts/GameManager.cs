@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject otherPlayer;
     [SerializeField] private TextMeshProUGUI positionText;
 
+    public bool playerInLead = false;
+
     /* // Start is called before the first frame update
      void Start()
      {
@@ -29,11 +31,13 @@ public class GameManager : MonoBehaviour
         {
             //Debug.Log("player 1 in lead");
             positionText.text = "Position: 1/2";
+            playerInLead = true;
         }
         else
         {
             //Debug.Log("player 2 in lead");
             positionText.text = "Position: 2/2";
+            playerInLead = false;
         }
     }
 

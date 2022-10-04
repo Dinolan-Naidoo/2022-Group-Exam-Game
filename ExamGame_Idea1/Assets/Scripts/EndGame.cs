@@ -9,11 +9,13 @@ public class EndGame : MonoBehaviour
     [SerializeField] private TextMeshProUGUI endGameText;
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject endGamePanel;
+
+    private GameManager gameManager;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameManager = FindObjectOfType<GameManager>();
     }
 
     /*// Update is called once per frame
@@ -29,7 +31,15 @@ public class EndGame : MonoBehaviour
             //Debug.Log("GAME OVER");
             player.SetActive(false);
             endGamePanel.SetActive(true);
-            endGameText.text = "WELL DONE YOU HAVE REACHED THE END!";
+            if (gameManager.playerInLead)
+            {
+                endGameText.text = "WELL DONE YOU WON THE RACE!";
+            }
+            else
+            {
+                endGameText.text = "SADLY YOU LOST THE RACE :(";
+            }
+            
         }
     }
 }
