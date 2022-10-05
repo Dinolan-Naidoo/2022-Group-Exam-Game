@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 7087651334056223176}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b435401b22980dc4bb40a9a78d7b60d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 10
   feetPosition: {fileID: 5389710690889650274}
   checkRadius: 1.49
   groundCheck:
