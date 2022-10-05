@@ -9,6 +9,8 @@ public class EndGame : MonoBehaviour
     [SerializeField] private TextMeshProUGUI endGameText;
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject endGamePanel;
+    [SerializeField] private GameObject controlsPanel;
+    [SerializeField] private GameObject hudPanel;
 
     private GameManager gameManager;
     
@@ -30,6 +32,8 @@ public class EndGame : MonoBehaviour
         {
             //Debug.Log("GAME OVER");
             player.SetActive(false);
+            hudPanel.SetActive(false);
+            controlsPanel.SetActive(false);
             endGamePanel.SetActive(true);
             if (gameManager.playerInLead)
             {
